@@ -1,0 +1,210 @@
+/* Basic header style */
+header {
+    font-size: 20px;
+    background-color: #3B141C;
+    padding: 10px 50px;
+}
+
+/* Common anchor styles */
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Logo color */
+.navbar h2 {
+    color: white;
+    margin: 0;
+}
+
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between; /*to shift menu right*/
+    align-items: center;
+}
+
+/* Navigation menu */
+.nav-menu {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+    margin: 0;
+    padding: 0;
+}
+header .main-section{
+    margin-top: 5%;
+    gap: 100px;
+    display: flex;
+    margin-bottom: 4%;
+}
+header .main-section .title{
+    margin-top: 10%;
+    color: white;
+}
+header .main-section .image{
+    margin-left: 15%;
+    margin-top: 3%;
+}
+header .main-section .btn1{
+    cursor: pointer;
+    background-color: #F3961C;
+    padding: 10px;
+    width: 20%;
+    border-radius: 10px;
+    border: none;
+}
+header .main-section .btn2{
+    cursor: pointer;
+    margin-left: 5%;
+    border: 1px solid white;
+    width: 20%;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: transparent;
+}
+.about{
+    margin: 8%;
+    display: flex;
+    align-items: center;
+    gap: 400px;
+}
+.about h2{
+    color: #F3961C;
+}
+.about img{
+    height: 300px;
+    width: 300px;
+    border-radius: 50%;
+}
+.about .about-us{
+    text-align: center;
+}
+.about .fa{
+    color:  #3B141C;
+    text-decoration: none;
+    font-size: 30px;
+    margin-left: 5%;
+}
+.our-menu{
+    padding: 10px;
+    color: white;
+    text-align: center;
+    background-color: #252525;
+}
+.menu{
+    display: flex;
+    gap: 300px;
+    justify-content: center;
+    text-align: center;
+    padding: 50px;
+    color: white;
+}
+.menu img,h3{
+    cursor: pointer;
+}
+.menu img{
+    height: 200px;
+    width: 200px;
+}
+.menu img {
+  transition: transform 0.3s ease;
+}
+.menu img:hover {
+  transform: translateY(-20px);
+}
+.why-us{
+    text-align: center;
+    color: white;
+    background-color: #3B141C;
+}
+.why-choose-us{
+    margin-left: 5%;
+    display: flex;
+    gap: 200px;
+    padding-bottom: 50px;
+}
+.why-us img{
+    height: 100px;
+    width: 100px;
+}
+.chef{
+    padding: 50px;
+    color: #3B141C;
+    text-align: center;
+    background-color: #F7EFE5;
+}
+.special-item img{
+    height: 100px;
+    width: 100px;
+}
+.chef .special{
+    display: flex;
+    gap: 700px;
+}
+.gallery {
+    background-color: #252525;
+    color: #F3961C;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.gallery h1{
+    margin: 0;
+    padding: 50px;
+}
+.gallery img{
+    border-radius: 10px;
+    height:230px;
+    width: 230px;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  background-color: #3B141C;
+  color: white;
+  padding: 40px 50px;
+  flex-wrap: wrap;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 250px;
+  margin: 10px;
+}
+
+.footer-column h3 {
+  margin-bottom: 15px;
+  color: #F7EFE5;
+}
+
+.footer-column p {
+  margin-bottom: 10px;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.footer-form input,
+.footer-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 5px;
+  font-family: inherit;
+}
+
+.footer-form button {
+  width: 100%;
+  background-color: #F7EFE5;
+  color: #3B141C;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.footer-form button:hover {
+  background-color: #e0d3c3;
+}
